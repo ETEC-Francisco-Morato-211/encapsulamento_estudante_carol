@@ -15,11 +15,11 @@ public class TesteEstudante {
         Estudante e1 = new Estudante ();
         
         //Construindo o estudante
-        e1.nome = "carolzinha";
-        e1.ra = 12345;
-        e1.nota = 'b';
-        e1.frequencia = 0.00;
-        e1.matriculaTrancada = false;
+        e1.setNome("carolzinha");
+        e1.setRa(12345);
+        e1.setNota('b');
+        e1.setFrequencia(0.00);
+        e1.setMatriculaTrancada(false);
         
         //Apresentação
         System.out.println("--------------APRESENTANDO ESTUDANTE---------------");
@@ -32,6 +32,13 @@ public class TesteEstudante {
         System.out.println("--------------APRESENTANDO ESTUDANTE---------------");
         e1.apresentacaoEstudante();
         
-    
+       
+   
+        
     }
+    
+   
+        
+    
 }
+
